@@ -17,10 +17,8 @@ function App() {
 
       <button onClick={ ()=>setColor("red")} className='flex items-center px-4 py-3
        text-white bg-red-500 hover:bg-red-400 rounded m-10' style={{backgroundColor:"red",color:text}}>red</button>
-
       </div>
     </>
   )
 }
-
 export default App
